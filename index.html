@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Manrope%3Awght%40400%3B500%3B700%3B800&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+     <link rel="stylesheet" href="style.css" />
+
+
+  </head>
+  <body>
+  <div class="page-wrapper">
+  <div class="layout-container">
+         <header class="header">
+    <div class="brand">
+      <svg class="logo" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+      </svg>
+      <h2 class="name">Chibuike Praise Obiora</h2>
+    </div>
+
+    <nav class="nav">
+      <ul class="nav-links">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Skills</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Education</a></li>
+        <li><a href="#">Certifications</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+
+      <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">🌞</button>
+      <button class="hamburger" id="hamburger">&#9776;</button>
+    </nav>
+  </header>
+        <section class="layout-wrapper">
+  <div class="layout-inner">
+    <div class="layout-content-container">
+           <section class="hero">
+  <div class="hero-container">
+    <div class="hero-image"></div>
+    <div class="hero-content">
+      <div class="text-block">
+        <h1>Chibuike Praise Obiora</h1>
+        <h2>
+          React Native Developer based in Lagos, Nigeria. I specialize in
+          building high-quality mobile applications for both iOS and Android
+          platforms. Let's bring your ideas to life!
+        </h2>
+      </div>
+      <button class="contact-btn">Contact Me</button>
+    </div>
+  </div>
+</section>
+
+         <section id="about" class="about-section">
+  <h2 class="about-heading">About Me</h2>
+  <p class="about-paragraph">
+    I am a passionate and experienced React Native Developer with a strong background in creating innovative and user-friendly mobile applications. With a focus on clean code and efficient development practices, I strive to deliver exceptional results that meet and exceed client expectations.
+  </p>
+</section>
+
+        <section class="skills-section px-4 py-5">
+  <h2 class="section-title">Skills</h2>
+  <div class="skills-grid" id="skillsGrid"></div>
+</section>
+           <section class="projects-section px-4 py-5">
+  <h2 class="section-title">Projects</h2>
+  <div id="projectsContainer" class="projects-grid"></div>
+</section>
+
+          <section class="education-section px-4 py-5">
+  <h2 class="section-title">Education</h2>
+  <div id="educationContainer" class="education-list"></div>
+</section>
+
+           <section class="education-section px-4 py-5">
+  <h2 class="section-title">Education</h2>
+  <div id="educationContainer" class="info-list"></div>
+</section>
+
+<section class="certification-section px-4 py-5">
+  <h2 class="section-title">Certifications</h2>
+  <div id="certificationContainer" class="info-list"></div>
+</section>
+
+ 
+              <section class="gallery-section px-4 py-5">
+  <h2 class="section-title">Gallery</h2>
+  <div class="gallery-scroll">
+    <div class="gallery-track" id="galleryContainer"></div>
+  </div>
+</section>
+
+
+        <section class="contact-section">
+  <h2 class="contact-title">Contact</h2>
+ <p class="contact-info">
+    You can also reach me at: <a href="mailto:obiorachibuike22@gmail.com">obiorachibuike22@gmail.com</a>  or<a href="tel:+2348025160310">+234 8025160310</a>
+   +234 8025160310
+  </p>
+  <form id="contactForm" class="contact-form">
+    <div class="form-group">
+      <input
+        id="name"
+        type="text"
+        name="name"
+        placeholder="Your Name"
+        required
+        class="form-input"
+      />
+      <p class="error-message">Name is required.</p>
+    </div>
+
+    <div class="form-group">
+      <input
+        id="email"
+        type="email"
+        name="email"
+        placeholder="Your Email"
+        required
+        class="form-input"
+      />
+      <p class="error-message">Enter a valid email address.</p>
+    </div>
+
+    <div class="form-group">
+      <textarea
+        id="message"
+        name="message"
+        placeholder="Your Message"
+        required
+        class="form-textarea"
+      ></textarea>
+      <p class="error-message">Message cannot be empty.</p>
+    </div>
+
+    <button type="submit" class="submit-btn">Send Message</button>
+  </form>
+</section>
+
+      </div>
+        </div>
+      </div>
+    </div>
+      <script src="script.js"></script>
+  </body>
+</html>
